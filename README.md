@@ -19,10 +19,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Daphne Kool
 
   #### Je startniveau:
-  Rood
+  Blauw / Rood
 
   #### Je focus:
-  surface plane
+  Responsive
  
 </details>
 
@@ -36,15 +36,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  Van Haren: https://www.vanharen.nl/nl-nl/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Van Haren, homepagina
+  <img src="readme-images/Homepagina.jpg" width="375px" alt="Homepagina vand de webiste van Van Haren.">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Van Haren, dames 
+  <img src="readme-images/Dames.jpg" width="375px" alt="Pagina op de website van Van Haren, waar alle dames artikelen worden weeergegeven.">
  
 </details>
 
