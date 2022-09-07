@@ -57,29 +57,39 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+   Kleuren contrast is goed. Grote witte letters van de koppen zijn goed te zien. Echter, zijn de witte letters op oranje niet goed zicthbaar, anders om wel. Ook zijn de dunnen zwarte letters slecht te lezen bij veel omstandigheden (kleurenblind, zwart-wit en geblurd)
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  Korte omschrijving:
+  De Screenreader op de site van Van Haren werkt niet erg goed. Koppen op de site die voor ziende mensen gezien worden, die als buttons op plaatjes staan, worden door de screenreader overgeslagen. 
+  <img src="readme-images/koppen.jpg" width="375px" alt="Slechte koppen in screenreader"><br/>
+  De screenreader leest vooral alle details van de producten op, en rekent deze als koppen, terwijl dit allemaal "a" is.
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Korte omschrijving:
+  De muis en toetsenbord werken op de site van Van Haren prima. Wel is er weinig tot geen gebruik gemaakt van een hover waardoor de gebruiker vaak niet goed kan zien waar hij of zij op dat moment met zijn muis overheen gaat en is er de kans dat een gebruiker op een product klikt wat hij of zij niet wilde.
+   <img src="readme-images/geenhover.jpg" width="375px" alt="Geen hover bij producten en categorieen"> 
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  Dit kan opgelost worden door, meer gebruik te maken van een hover die goed een afbeelding van een product naar voren laat komen, zodat de gebruiker weet dat de muis opdat moment zich op dat product bevindt.
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Korte omschrijving:
+  Met de shocks verliest de website van de Van Haren niet zijn werking. Alleen is er wel een nadeel dat je door de shocks soms onverwacht te hard drukt om je muis. Hierdoor kan je dan perongelijk een product aan klikken welke een gebruiker niet wilde zien. 
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Hoe kan het opgelost worden?
+  De problemen met de shocks kunnen niet worden opgelost, omdat de het probleem eigenlijk ligt bij de shocks zelf.
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Korte omschrijving:
+  Wat bij de kleurenblindheid veel naar voren kwam, is het probleem dat de kleine zwarte letters over de gehele pagina slecht tot bijna niet leesbaar zijn. Bij veel kleuerenblindheid neemt de kleur van het zwart af en vervaagt dit tot grijs, waardoor de letters slecht zicthbaar worden.
+  <img src="readme-images/kleineletters.jpg" width="375px" alt="Te kleine omschrijvings letters"> 
+  Bij gebruikers die alleen zwart/wit zien, is er veel wit aanwezig. Elke wit is een lichtere tint, maar voor mensen die zwart wit zien is deze tint verschil niet zictbaar. Hierdoor lopen bijvoorbeeld de achtergrond en de product achtergrond in elkaar over.
+  <img src="readme-images/tintenwit.jpg" width="375px" alt="Overgang tinten wit te slecht zichtbaar"> 
+  
+  Hoe kan het opgelost worden?
+  De kleine zwarte letters zullen groter en dikker gemaakt moeten worden, om deze zo beter zichtbaar te maken.
+  De verschillende tinten wit zullen moeten worden aangepast. Niet in wit tinten, maar bijvoorbeeld in grijze vlakken.
 
 </details>
 
