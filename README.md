@@ -68,7 +68,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### Muis en Toetsenbord 
   Korte omschrijving:
   De muis en toetsenbord werken op de site van Van Haren prima. Wel is er weinig tot geen gebruik gemaakt van een hover waardoor de gebruiker vaak niet goed kan zien waar hij of zij op dat moment met zijn muis overheen gaat en is er de kans dat een gebruiker op een product klikt wat hij of zij niet wilde.
-   <img src="readme-images/geenhover.jpg" width="375px" alt="Geen hover bij producten en categorieen"> 
+  <img src="readme-images/geenhover.jpg" width="375px" alt="Geen hover bij producten en categorieen"> 
 
   Dit kan opgelost worden door, meer gebruik te maken van een hover die goed een afbeelding van een product naar voren laat komen, zodat de gebruiker weet dat de muis opdat moment zich op dat product bevindt.
 
@@ -83,7 +83,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Korte omschrijving:
   Wat bij de kleurenblindheid veel naar voren kwam, is het probleem dat de kleine zwarte letters over de gehele pagina slecht tot bijna niet leesbaar zijn. Bij veel kleuerenblindheid neemt de kleur van het zwart af en vervaagt dit tot grijs, waardoor de letters slecht zicthbaar worden.
-  <img src="readme-images/kleineletters.jpg" width="375px" alt="Te kleine omschrijvings letters"> 
+  <img src="readme-images/kleineletters.jpg" width="375px" alt="Te kleine omschrijvings letters"><br/>
   Bij gebruikers die alleen zwart/wit zien, is er veel wit aanwezig. Elke wit is een lichtere tint, maar voor mensen die zwart wit zien is deze tint verschil niet zictbaar. Hierdoor lopen bijvoorbeeld de achtergrond en de product achtergrond in elkaar over.
   <img src="readme-images/tintenwit.jpg" width="375px" alt="Overgang tinten wit te slecht zichtbaar"> 
   
