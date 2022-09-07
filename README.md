@@ -85,7 +85,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Wat bij de kleurenblindheid veel naar voren kwam, is het probleem dat de kleine zwarte letters over de gehele pagina slecht tot bijna niet leesbaar zijn. Bij veel kleuerenblindheid neemt de kleur van het zwart af en vervaagt dit tot grijs, waardoor de letters slecht zicthbaar worden.
   <img src="readme-images/kleineletters.jpg" width="375px" alt="Te kleine omschrijvings letters"><br/>
   Bij gebruikers die alleen zwart/wit zien, is er veel wit aanwezig. Elke wit is een lichtere tint, maar voor mensen die zwart wit zien is deze tint verschil niet zictbaar. Hierdoor lopen bijvoorbeeld de achtergrond en de product achtergrond in elkaar over.
-  <img src="readme-images/tintenwit.jpg" width="375px" alt="Overgang tinten wit te slecht zichtbaar"> 
+  <img src="readme-images/tintenwit.jpg" width="375px" alt="Overgang tinten wit te slecht zichtbaar"><br/>
   
   Hoe kan het opgelost worden?
   De kleine zwarte letters zullen groter en dikker gemaakt moeten worden, om deze zo beter zichtbaar te maken.
