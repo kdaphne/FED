@@ -39,12 +39,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Van Haren: https://www.vanharen.nl/nl-nl/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  Van Haren, homepagina<br/>
-  <img src="readme-images/Homepagina.jpg" width="375px" alt="Homepagina vand de webiste van Van Haren.">
+  Van Haren, dames<br/>
+  <img src="readme-images/Dames.jpg" width="375px" alt="De dames pagina vand de webiste van Van Haren.">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Van Haren, dames<br/> 
-  <img src="readme-images/Dames.jpg" width="375px" alt="Pagina op de website van Van Haren, waar alle dames artikelen worden weeergegeven.">
+  Van Haren, Oxmox Taupe Chunky Sneaker<br/> 
+  <img src="readme-images/Sneakerdetail.jpg" width="375px" alt="Pagina op de website van Van Haren, met de details van de Oxmox Taupe Chunky Sneaker.">
  
 </details>
 
@@ -101,13 +101,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Helepagina.jpg" width="375px" alt="breakdown van de hele pagina">
 
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  ### dynamisch deel (Carousel): 
+  <img src="readme-images/Carousel.jpg" width="375px" alt="breakdown van een Carousell van sneakers">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  ### wellicht nog een dynamisch deel (Navigatie menu): 
+  <img src="readme-images/Navigatiemenu.jpg" width="375px" alt="breakdown van het navigatie menu">
 
 </details>
 
