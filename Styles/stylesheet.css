@@ -1,0 +1,84 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+:root {
+    --achtergrond-color:white;
+    --achtergrond-input-formulier:#f7f8f8;
+    --title-h3-color:white;
+    --title-h2-color: black;
+    --title-p-color: black;
+    --lettertype-font-family:"Open Sans",Helvetica,sans-serif;
+}
+
+body {
+    background-color:var(--achtergrond-color);
+}
+
+/* start van de header */
+
+h1 img {
+    width: 124,16px;
+    height: 20px;
+}
+
+header section:nth-of-type(1) li{
+    list-style-type: none;
+}
+
+header section:nth-of-type(2) input{
+    border:none;
+    background-color:var(--achtergrond-input-formulier)  
+}
+
+/* start van de main */
+
+/* carousel 1, populairst op dit moment */
+
+main section:nth-of-type(1) h2{
+    font-size: 1,625em;
+    font-family:var(--lettertype-font-family);
+    color:var(--title-h2-color);
+    margin-bottom: .25em;
+}
+
+main section:nth-of-type(1) p{
+    font-size: 1em;
+    font-family: var(--lettertype-font-family);
+    color:var(--title-p-color);
+    font-weight: 300;
+    margin-top: 0;
+}
+
+main section:nth-of-type(2) ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1em;
+    overflow-x: auto;
+    padding:0;
+}
+
+main section:nth-of-type(2) li {
+    position: relative;
+}
+
+main section:nth-of-type(2) h3{
+    font-size: 1,4em;
+    font-family: var(--lettertype-font-family);
+    color:var(--title-h3-color);
+    position: absolute;
+    top:35%;
+    left:25%;
+}
+
+main section:nth-of-type(2) img {
+    width: 13em;
+    height: 16,7em;
+}
+
+
+
+/* carousel 2, Sneakers op een rijtje */
