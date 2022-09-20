@@ -121,26 +121,28 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Mijn Html was voor zo ver af en geschreven. Ik had 1 section uitgewerkt in mijn css om daar feedback over te krijgen tijdens de eerste meeting voor het voortgangsgesprek. Verder moest ik in mijn html nog afbeelding toevoegen om deze zo af te krijgen.
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  | Daphne Kool    | student 2        | student 3       | student 4        |
+  | ---            | ---              | ---             | ---              |
+  | laten zien wat | Laten zien wat   | laten zien wat  | laten zien wat   |
+  | ik tot zo ver  | zij tot zo ver   | hij tot zo ver  | zij tot zo ver   |
+  | had om daar    | had              | had             | had              |
+  | feedback op te |
+  | krijgen        |
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+  Uitkomst van de meeting:
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Geen "breaks (/br)" gebruiken
+  - Code goed en duidelijk laten inspringen om zo overzicht te houden in je html
+  - Sommige h1 en h2 konden worden weggelaten
+  - code is over het algmeen overzichtelijk, niet overal 
+  - Goed op weg, maar moet wel doorgaan werken
 
 </details>
 
