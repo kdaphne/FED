@@ -127,13 +127,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | Daphne Kool    | student 2        | student 3       | student 4        |
+  | Daphne Kool    | Leanne man        | Tijn Gerhards       | Betoel Fadallah        |
   | ---            | ---              | ---             | ---              |
-  | laten zien wat | Laten zien wat   | laten zien wat  | laten zien wat   |
-  | ik tot zo ver  | zij tot zo ver   | hij tot zo ver  | zij tot zo ver   |
-  | had om daar    | had              | had             | had              |
-  | feedback op te |
-  | krijgen        |
+  | laten zien wat ik tot zo ver had om daar feedback op te krijgen | Laten zien wat zij tot zo ver had om daar feedback op te krijgen   | Laten zien wat hij tot zo ver had om daar feedback op te krijgen   | Laten zien wat zij tot zo ver had om daar feedback op te krijgen 
+  |  |   |  |   |
+  |    |              |             |            |
+  |  |
+  |         |
 
   ### Verslag van meeting
   Uitkomst van de meeting:
@@ -156,13 +156,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Deze week heb ik mijn css verder toegepast op mijn website. Veel sections en delen vorm kunnen geven. Ook heb ik deze week mijn menu met Javascript kunnen maken. Wel heb ik wat vragen gesteld in de les omdat ik tegen een aantal dingen aanliep bij het verwerken van mijn css. Denk aan, javascript voor mijn menu, responsive maken van plaatjes en volgorde van teksten bepalen.
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | Daphne Kool    | Jade van der Peet          | Leanne Man  | Betoel     |
+  | Daphne Kool    | Jade van der Peet          | Leanne Man  | Betoel Fadallah    |
   | ---            | ---                | ---          | ---              |
   | Tekst stukje omdraaien, volgorde| Ruimte om a's in navigatie      | Menu werkend maken    | Menu werkend maken   |
   | Plaatje schaling bepalen            | Navigaite verdwijnt bij het scrollen | Section aanspreken | |
@@ -170,12 +170,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+  Uitkomsten van de meeting:
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - Ordening in je HTML op orde brengen (h1 eerst, h2 daarna, dan h3 etc)
+  - Volgorde van teksten (order 1, order -1 etc) verwerken in de tekst
+  - Geen dubbele dingen in verschillende verwijzingen van de CSS zetten
 
 </details>
 
