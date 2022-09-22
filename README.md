@@ -164,12 +164,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | Daphne Kool    | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | Tekst stukje om
-  draaien onder 
-  verkoop van de 
-  schoenen         | en dit             | en ik dit    | en dan ik dat    |
-  |  | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Tekst stukje omdraaien, volgorde| Ruimte om a's in navigatie      | en ik dit    | en dan ik dat    |
+  | Plaatje schaling bepalen            | Navigaite verdwijnt bij het scrollen | nog een punt | dit wil ik zeker |
+  | Tekst responsive en omhoog verplaatsen          | 2 linkjes onder elkaar krijgen             | ...          | ...              |
 
 
   ### Verslag van meeting
