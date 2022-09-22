@@ -162,11 +162,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | Daphne Kool    | Jade van der Peet          | Leanne Man  | student 4        |
+  | Daphne Kool    | Jade van der Peet          | Leanne Man  | Betoel     |
   | ---            | ---                | ---          | ---              |
-  | Tekst stukje omdraaien, volgorde| Ruimte om a's in navigatie      | Menu button werkend maken    | en dan ik dat    |
-  | Plaatje schaling bepalen            | Navigaite verdwijnt bij het scrollen | nog een punt | dit wil ik zeker |
-  | Tekst responsive en omhoog verplaatsen          | 2 linkjes onder elkaar krijgen             | ...          | ...              |
+  | Tekst stukje omdraaien, volgorde| Ruimte om a's in navigatie      | Menu werkend maken    | Menu werkend maken   |
+  | Plaatje schaling bepalen            | Navigaite verdwijnt bij het scrollen | Section aanspreken | |
+  | Tekst responsive en omhoog verplaatsen          | 2 linkjes onder elkaar krijgen             |          |              |
 
 
   ### Verslag van meeting
