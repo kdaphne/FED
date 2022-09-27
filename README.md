@@ -121,7 +121,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
-  Mijn Html was voor zo ver af en geschreven. Ik had 1 section uitgewerkt in mijn css om daar feedback over te krijgen tijdens de eerste meeting voor het voortgangsgesprek. Verder moest ik in mijn html nog afbeelding toevoegen om deze zo af te krijgen.
+  Mijn html was voor zo ver af en geschreven. Ik had 1 section uitgewerkt in mijn css om daar feedback over te krijgen tijdens de eerste meeting voor het voortgangsgesprek. Verder moest ik in mijn html nog afbeelding toevoegen om deze af te maken.
 
 
   ### Agenda voor meeting
@@ -130,18 +130,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | Daphne Kool    | Leanne man        | Tijn Gerhards       | Betoel Fadallah        |
   | ---            | ---              | ---             | ---              |
   | laten zien wat ik tot zo ver had om daar feedback op te krijgen | Laten zien wat zij tot zo ver had om daar feedback op te krijgen   | Laten zien wat hij tot zo ver had om daar feedback op te krijgen   | Laten zien wat zij tot zo ver had om daar feedback op te krijgen 
-  |  |   |  |   |
-  |    |              |             |            |
-  |  |
-  |         |
 
   ### Verslag van meeting
-  Uitkomst van de meeting:
+  Uitkomsten van de meeting:
 
   - Geen "breaks (/br)" gebruiken
   - Code goed en duidelijk laten inspringen om zo overzicht te houden in je html
+  - Code is over het algmeen overzichtelijk, niet overal 
   - Sommige h1 en h2 konden worden weggelaten
-  - code is over het algmeen overzichtelijk, niet overal 
   - Goed op weg, maar moet wel doorgaan werken
 
 </details>
@@ -160,13 +156,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
 
   | Daphne Kool    | Jade van der Peet          | Leanne Man  | Betoel Fadallah    |
   | ---            | ---                | ---          | ---              |
   | Tekst stukje omdraaien, volgorde| Ruimte om a's in navigatie      | Menu werkend maken    | Menu werkend maken   |
-  | Plaatje schaling bepalen            | Navigaite verdwijnt bij het scrollen | Section aanspreken | |
-  | Tekst responsive en omhoog verplaatsen          | 2 linkjes onder elkaar krijgen             |          |              |
+  | Plaatje schaling bepalen            | Navigaite verdwijnt bij het scrollen | Section aanspreken |
+  | Tekst responsive en omhoog verplaatsen          | 2 linkjes onder elkaar krijgen             |
 
 
   ### Verslag van meeting
@@ -225,21 +220,27 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik heb in week 4 mijn homepagina weer verder uitgewerkt. De feedback van vorig voortgangsgesprek verwerkt. Wel liep ik deze week tegen een aantal dingen aan. Zo kwam ik erachter dat de VanHaren website 2 menu's kreeg bij verschillende grootte van het scherm. Zelf had ik dit al geprobeerd en het werkte ook al aardig, alleen had ik het op een lelijke manier gedaan wat liever weg moest, maar heeft Russel mij hierbij geholpen en nu werkt de navigatie nu goed op een correcte manier (zie foto)<br/> 
+  <img src="readme-images/navigatie.png" width="375px" alt="Navigatie in de header"><br/>
+
+  Voor de rest had ik vooral nog kleine vragen, zoals bijvoorbeeld in een details list, het tekentje voor de summary wilde ik verplaatsen naar de rechterkant ipv links (zie foto)<br/> 
+  <img src="readme-images/detailslist.png" width="375px" alt="Details list"><br/>
+
+  Ook schaalde mijn linkjes (vormgegeven als buttons) goed mee als het scherm grooter wordt, maar de title van de linkjes blijven helemaal links staan ipv in het midden van de button (zie foto)<br/>
+  <img src="readme-images/button.png" width="375px" alt="Buttons die niet goed mee schalen">
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Daphne Kool      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | Win tekst onder elkaar tot een bepaalde breedte en daarna naast elkaar krijgen.  | en dit             | en ik dit    | en dan ik dat    |
+  | Button over de hele lengte van een border krijgen| dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+  Uitkomsten van de meeting
 
   - punt 1
   - punt 2
@@ -282,10 +283,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details open>
   <summary>continu bijhouden terwijl je werkt</summary>
 
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
+  <!-- Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). -->
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. Bron 1: Google Fonts: afbeelding van iconen 
+  2. Bron 2: Sanne: Width: min(80%, 15em)
+  3. Bron3: Russell: toepassen van media queries bij mijn navigatie
 
 </details>
