@@ -186,25 +186,51 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  De screenreader werkte goed! Alle kopjes werden meegenomen en in de goede volgorde verteld. Ook de linkjes werkte goed, ze waren allemaal benoemd en meegenomen in de screenreader.<br/>
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Wel was er een probleem met de iconen in de header. Deze had ik in mijn html de verkeerde namen gegeven en dus las de screenredear deze ook verkeerd voor. Dit zorgde voor verwarring hij de tester.<br/>
+  <img src="readme-images/iconennamen.png" width="375px" alt="Iconen met verkeerde namen"><br/>
+
+  Ik heb dit opgelost door de iconen de goede namen te geven die ook daadwerkelijk bij de iconen horen.<br/>
+  <img src="readme-images/Navigatiemenu.jpg" width="375px" alt="breakdown van het navigatie menu">
+
 
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Met de muis en toetsenbord ging het goed. Wel miste mijn eerste carousel ("De populairste categorieën van dit moment") een link en werden deze dus niet meegenomen tijdens de tab-toets. Voorderest waren alle linkjes/buttons klikbaar en kon er overal doorheen worden getabt.<br/>
+  
+  De oplossing om de eerste carousel ("De populairste categorieën van dit moment") wel zichtbaar te krijgen bij het gebruik van de tab-toets, is door de deze list-elementen een link mee geven, omdat ze daadwerkelijk zullen moeten linken naar een volgende pagina.<br/>
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Voor het niet kunnen tabben, zag mijn HTML er zo uit:<br/>
+   <img src="readme-images/geenlinkjes.png" width="375px" alt="Geen linkjes"><br/>
+
+
+  Na het verbetern van het niet kunnen tabben, zag mijn HTML er zo uit:<br/>
+   <img src="readme-images/Navigatiemenu.jpg" width="375px" alt="breakdown van het navigatie menu"><br/>
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Mijn website is motoriek bestendig. Zowel bij het gebruik van de shocks als de elastiekjes was mijn site goed te gebruiken. Wel wat moeilijker voor de gebruiker zelf omdat deze zichtzelf steeds moet corrigeren, omdat hij steeds door de schocks wordt wegggetrokken.
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Bij de visuele onderdelen scoort mijn website op dit moment laag.<br/>
+
+  Als het zicht geblurd is, zijn de P's voor de gebruiker moeilijk te lezen. Deze zijn te dun en te klein.<br/>  
+  <img src="readme-images/geenp.png" width="375px" alt="P niet leesbaar"><br/>
+
+  Ook zijn de prijzen van de sneakers moeilijk te lezen, omdat deze te klein en juist te bold zijn. Dit geld ook voor de merken namen in de carousel van de diverse merken.<br/>
+  <img src="readme-images/prijzenklein.png" width="375px" alt="Prijzen zijn te klein"><br/>
+
+  Ook is de search-balk in de header slecht te lezen, door de lichte grijze kleur die deze heeft.<br/>
+  <img src="readme-images/zoekbalk.png" width="375px" alt="Zoekbalk slecht zichtbaar"><br/>
+
+  Als een gebruiker zicht verlies heeft, is het voor hen moeilijk te onderschijden wat de schoenen zijn die worden aangeboden, omdat het verschil in kleur met de achtergrond, deze is wit, te veel lijkt op de achtergrond van de schoenen, deze zijn lichtgrijs.<br/>
+
+
+  Daarentegen kwam er bij de test geen opmerkingen tegen bij het kleurenblindheid en contrast. Deze waren juist wel weer goed en duidelijk.<br/>
+  De dark/light mode is niet aanwezig om mijn website en is dus ook niet getest.<br/>
+
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
@@ -232,10 +258,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Agenda voor meeting
 
-  | Daphne Kool      | student 2          | student 3    | student 4        |
+  | Daphne Kool      | Leanne Man         | Betoel Fadallah    | Tijn Gerhards        |
   | ---            | ---                | ---          | ---              |
-  | Win tekst onder elkaar tot een bepaalde breedte en daarna naast elkaar krijgen.  | en dit             | en ik dit    | en dan ik dat    |
-  | Button over de hele lengte van een border krijgen| dit als er tijd is | nog een punt | dit wil ik zeker |
+  | Source van meerdere (dezelfde) plaatjes veranderen met javascript  | Zowel plaatjes als tekst kleiner laten worden (responsive) | en ik dit    | en dan ik dat    |
+  || dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
 
