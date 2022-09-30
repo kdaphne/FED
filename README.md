@@ -260,9 +260,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | Daphne Kool      | Leanne Man         | Betoel Fadallah    | Tijn Gerhards        |
   | ---            | ---                | ---          | ---              |
-  | Source van meerdere (dezelfde) plaatjes veranderen met javascript  | 2 | 3  |  4  |
-  |Zowel plaatjes als tekst kleiner laten worden (responsive)| 2 | 3| 4 |
-  | 1           | 2             | 3         | 4            |
+  | Source van meerdere (dezelfde) plaatjes veranderen met javascript  | Hamburger menu naast logo krijgen | responsivness  |  4  |
+  |Zowel plaatjes als tekst kleiner laten worden (responsive)| css van de tweede pagina| carousel oneindig maken  | 4 |
+  |         | plaatje responsive maken | 3    | 4            |
 
 
   ### Verslag van meeting
