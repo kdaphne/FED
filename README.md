@@ -225,9 +225,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Ook is de search-balk in de header slecht te lezen, door de lichte grijze kleur die deze heeft.<br/>
   <img src="readme-images/zoekbalk.png" width="375px" alt="Zoekbalk slecht zichtbaar"><br/>
 
-  Als een gebruiker zicht verlies heeft, is het voor hen moeilijk te onderschijden wat de schoenen zijn die worden aangeboden, omdat het verschil in kleur met de achtergrond, deze is wit, te veel lijkt op de achtergrond van de schoenen, deze zijn lichtgrijs.<br/>
-
-
   Daarentegen kwam er bij de test geen opmerkingen tegen bij het kleurenblindheid en contrast. Deze waren juist wel weer goed en duidelijk.<br/>
   De dark/light mode is niet aanwezig om mijn website en is dus ook niet getest.<br/>
 
@@ -260,18 +257,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | Daphne Kool      | Leanne Man         | Betoel Fadallah    | Tijn Gerhards        |
   | ---            | ---                | ---          | ---              |
-  | Source van meerdere (dezelfde) plaatjes veranderen met javascript  | Hamburger menu naast logo krijgen | responsivness  |  4  |
-  |Zowel plaatjes als tekst kleiner laten worden (responsive)| css van de tweede pagina| carousel oneindig maken  | 4 |
-  |         | plaatje responsive maken | 3    | 4            |
+  | Source van meerdere (dezelfde) plaatjes veranderen met javascript  | Hamburger menu naast logo krijgen | responsivness  |  Site laten zien wat hij tot dus ver had, had geen specifieke vragen |
+  |Zowel plaatjes als tekst kleiner laten worden (responsive)| css van de tweede pagina| carousel oneindig maken  | |
+  |         | plaatje responsive maken |     |            |
 
 
   ### Verslag van meeting
   Uitkomsten van de meeting
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Meerdere hartjes laten vullen, om de sneakers te favoritiseren moet met javascript, is alleen erg moeilijk
+  - Code doorsturen naar Russel om zo mij te helpen met mijn javascript
+  - Over het algemeen, zit er goed uit, ben goed op weg
 
 </details>
 
@@ -313,6 +309,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   1. Bron 1: Google Fonts: afbeelding van iconen 
   2. Bron 2: Sanne: Width: min(80%, 15em)
-  3. Bron3: Russell: toepassen van media queries bij mijn navigatie
+  3. Bron 3: Russell: toepassen van media queries bij mijn navigatie
+  4. Bron 4: Russel: Javascript, hartje source veranderen
 
 </details>
