@@ -285,15 +285,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Wat ik bij FED geleerd heb is het gebruik van Grid- systeem. Ik kende dit hiervoor nog niet, dus het was gebruik hiervan was nieuwe voor mij. Ik heb het Grid-systeem toegepast op mijn 2de pagina waarbij de layout bij twee verschillende Media Queries veranderd.<br/>
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/Grid1.png" width="375px" alt="Grid bij de grootste media querie"><br/>
 
+  <img src="readme-images/Grid2.png" width="375px" alt="Grid bij de eerste media querie"><br/>
+
+  Ook heb ik door de lessen en het maken van de vanHaren site Flexbox beter weten te begrijpen. In de eerste weken was het mij nog niet helemaal duidelijk, maar bij het maken van mijn 2de pagina vielen de steentje in elkaar en was het mij duidelijk hoe het systeem van Flexbox werkte en kon ik deze makkelijker toepassen.
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Wat mij deze periode niet gelukt is om te maken is om op mijn tweede pagina, de foto's van de schoen naast dat deze groot in beeld is, ook de overige foto's klein aan de linker kant in beeld zijn.<br/>
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/fotozijkant.png" width="375px" alt="Foto lijst zijkant">
 </details>
 
 
