@@ -1,0 +1,887 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+:root {
+    --achtergrond:white;
+    --input-formulier:#f7f8f8;
+
+    --wit:white;
+    --zwart: black;
+
+    --bijna-zwart:#3a3a3a;
+
+    --licht-grijs: lightgray;
+    --donker-grijs: #818788;
+    --tussen-in-grijs:#817d7d;
+    --donkerder-grijs:#5e5f5f;
+
+    --oranje:#f37022;
+    --rood-oranje: orangered;
+  
+    --donker-wit:#e3e8e9;
+    --licht-wit:#eceeee;
+    --wit-drie:#f1f0f0;
+}
+
+body {
+    background-color:var(--achtergrond);
+}
+
+
+/* HEADER */
+/* Eerste navigatie met iconen*/
+header{
+    margin:1em;
+}
+
+header nav:nth-of-type(1){
+    display: flex;
+    justify-content: space-between;
+}
+
+nav:nth-of-type(1) h1 img {
+    flex-grow: 1;
+    margin: 10px;
+    width: 124px;
+}
+
+nav:nth-of-type(1) ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+nav:nth-of-type(1) ul:nth-of-type(1){
+    justify-content: space-between;
+    min-width: 216px;
+}
+
+nav:nth-of-type(1) ul:nth-of-type(1) li a{
+    text-decoration: none;
+    color: var(--zwart);
+    text-transform: uppercase;
+    font-family: "Open Sans",Helvetica,sans-serif;
+}
+
+nav:nth-of-type(1) ul:nth-of-type(1) li a:hover{
+    border-bottom: var(--oranje) solid 2px;
+}
+
+nav:nth-of-type(1) ul:nth-of-type(1) li a:active{
+    color: var(--oranje);
+}
+
+nav:nth-of-type(1) ul:nth-of-type(1) li a:focus{
+    border-bottom: var(--oranje) solid 4px;
+}
+
+nav:nth-of-type(1) ul img {
+    width: 124.16px;
+    height: 20px;
+}
+
+nav:nth-of-type(1) a img {
+    width: 26px;
+    height: 30px;
+    margin: 2px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+
+/* tweede navigatie met button*/
+header nav:nth-of-type(2){
+    display: flex;
+    justify-content: space-between;
+}
+
+nav:nth-of-type(2) button{
+    display: none;
+}
+
+nav:nth-of-type(2) button img {
+    width: 2.4em;
+    height: 2.4em;
+}
+
+nav:nth-of-type(2) ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 280px;
+    align-items: center;
+}
+
+nav:nth-of-type(2) ul li{
+    flex-basis: 0;
+    flex-grow: 0;
+    flex-direction:row;
+    border:none;
+    font-weight: 100;
+    font-size: .8em;
+}
+
+nav:nth-of-type(2) ul li a {
+    text-decoration: none;
+    font-family: "Open Sans",Helvetica,sans-serif;
+    color: var(--zwart);
+    font-weight: 400;
+    font-size: 1.25em;
+}
+
+nav:nth-of-type(2) ul li a:hover{
+    border-bottom: var(--oranje) solid 2px;
+}
+    
+nav:nth-of-type(2) ul li a:active {
+    color: var(--oranje);
+}
+
+nav:nth-of-type(2) ul li a:focus{
+    border-bottom: var(--oranje) solid 4px;
+}
+
+/* Zoekbalk met icoon*/
+header form {
+    display: flex;
+}
+
+header form img {
+    object-fit: contain;
+    width: 1.8em;
+    height: 2.6em;
+    background: var(--donker-wit);
+}
+
+header form img:hover {
+    cursor: pointer;
+    background: var(--oranje);
+}
+
+header form img:focus {
+    border: solid var(--zwart) 4px;
+}
+
+header form img:active {
+    background:var(--oranje);
+}
+
+header form input {
+    border:none;
+    background-color: var(--donker-wit);
+    width: 25em;
+    flex-grow: 1;  
+}
+
+header input::placeholder {
+    color:var(--donker-grijs);
+    font-size: 1em;
+    font-weight: 100;
+}
+
+header input:hover {
+    background:var(--licht-wit); 
+}
+
+header input:focus {
+    outline-color:var(--oranje);
+}
+
+
+    /* Media queries */
+    @media (min-width:560px) {
+
+        /* border in de navigatie */
+        header nav:nth-of-type(2) {
+            border-top: solid var(--wit-drie) 1px;
+            border-bottom: solid var(--wit-drie) 1px;
+            padding-top: .5em;
+            padding-bottom: .5em;
+        }
+    }
+
+
+    /* menu extra navigatie komt */
+    @media (max-width:770px) {
+        header nav:nth-of-type(1) ul:nth-of-type(1){
+            display: none;
+        }
+        
+        nav:nth-of-type(1) li:first-of-type {
+            flex-grow: 0;
+        }
+
+        nav:nth-of-type(1) a img {
+            flex-grow: 0;
+        }
+
+        nav:nth-of-type(2) form {
+            flex-grow: 2;
+            width: 100%;
+        }
+    }
+
+    @media (max-width:1019px) {
+
+        /* menu button verdwijnt + forrmulier over de hele breedte*/
+        nav:nth-of-type(2) button{
+            display: inline;
+        }
+
+        nav:nth-of-type(2) ul {
+            background-color: var(--achtergrond);
+            display: block;
+            position: fixed;
+            top: 0;
+            bottom:0;
+            left:0;
+            right:0;
+            transform:translateX(-100%);
+            transition:.3s;
+            padding: 6em 1em 1em 1em;
+            list-style: none;
+            margin: 0;
+            z-index: 500;
+        }
+
+        nav:nth-of-type(2).menuGaatOpenEnDicht ul {
+            transform:translateX(0%);
+            transition:.3s;
+        }
+
+        nav:nth-of-type(2) li {
+            font-family:"Open Sans",Helvetica,sans-serif;
+            padding-bottom: .5em;
+            padding-top: .2em;
+            border-bottom: var(--licht-grijs) solid 1px;
+            margin-left: .5em;
+            margin-right: .5em;
+        } 
+        
+        nav:nth-of-type(2) ul a {
+            text-decoration: none;
+            font-family: "Open Sans",Helvetica,sans-serif;
+            color: var(--zwart);
+            font-weight: 350;
+            font-size: 1.25em;
+        }
+
+        nav:nth-of-type(2) ul a:hover {
+            border-bottom: var(--oranje) solid 2px;
+        }
+
+        nav:nth-of-type(2) ul a:active {
+            color: var(--oranje);
+        }
+
+        nav:nth-of-type(2) ul a:focus {
+            border-bottom:var(--oranje) solid 4px; 
+        }
+
+        nav:nth-of-type(2) button{
+            background-color: var(--achtergrond);
+            margin-bottom: .5em;
+            border: none;
+            position: relative;
+            z-index:1000;
+        }
+
+        nav:nth-of-type(2) button :hover{
+            cursor: pointer;
+        }
+
+        nav:nth-of-type(2) button :active{
+            cursor: pointer;
+            background-color: var(--input-formulier); 
+        }
+
+        nav:nth-of-type(2) button :focus{
+            cursor: pointer;
+            background-color: var(--input-formulier); 
+        }
+    }
+
+
+
+/* schoenen foto's*/
+main section:nth-of-type(1) ul{
+    list-style-type: none;
+    display: flex;
+    gap:.3em;
+    overflow-x: auto;
+}
+
+main section:nth-of-type(1) ul li img {
+    width: 27em;
+    height: 36em;
+}
+
+
+/* De schoen: de prijs en naam*/
+main section:nth-of-type(2) {
+    font-family: "Open Sans",Helvetica,sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 1em 1em 1em;
+    border-bottom: solid var(--licht-grijs) 1px;
+}
+
+main section:nth-of-type(2) h2:nth-of-type(1){
+    font-size: 1.25em;
+    font-weight: 200;
+}
+
+main section:nth-of-type(2) h2:nth-of-type(2){
+    font-size: .9em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+main section:nth-of-type(2) h3 {
+    font-size: 2em;
+    font-weight: 700;
+    order: -10;
+}
+
+
+/* De schoen: de kleur:Taupe */
+main section:nth-of-type(3) {
+    display: flex;
+    flex-direction: row;
+    font-family: "Open Sans",Helvetica,sans-serif;
+    font-size: 1.1em;
+    padding: 1em 1em 1em 1em;
+    border-bottom: solid var(--licht-grijs) 1px;
+}
+
+main section:nth-of-type(3) h4:nth-of-type(1) {
+    font-weight: 700;
+}
+
+main section:nth-of-type(3) h4:nth-of-type(2) {
+    font-weight: 500;
+    color: var(--tussen-in-grijs);
+}
+
+
+
+/* De schoen: Kies je maat*/
+main section:nth-of-type(4) {
+    padding: 1em 1em 1em 1em;
+}
+
+/* maattabel*/
+main section:nth-of-type(4) a {
+    font-family: "Open Sans",Helvetica,sans-serif;
+    font-size: 1.1em;
+    /* font-weight: 700; */
+    color: var(--zwart);
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+main section:nth-of-type(4) a:visited{
+    color: var(--oranje);
+}
+
+main section:nth-of-type(4) a:focus {
+    color: var(--rood-oranje);
+}
+
+main section:nth-of-type(4) a:hover{
+    color: var(--donker-grijs);
+}
+
+main section:nth-of-type(4) a:active{
+    color: var(--zwart);
+    
+}
+
+/* Kies je maat, menu*/
+
+/* main section:nth-of-type(4) h2{
+    font-weight: 400;
+    font-family: "Open Sans",Helvetica,sans-serif;
+    font-size: 1.25em;
+    text-align: left;
+    color: #c8d3d6;
+} */
+
+main section:nth-of-type(4) button {
+    font-weight: 400;
+    font-family: "Open Sans",Helvetica,sans-serif;
+    font-size: 1.25em;
+    text-align: left;
+    color: var(--bijna-zwart);
+    /* position:relative;
+    z-index:100;	 */
+    background-color: var(--input-formulier);
+    list-style-type: none;
+    border: var(--bijna-zwart) solid 1.5px;
+    width: 100%;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    margin-top: 1.5em;
+}
+
+main section:nth-of-type(4) ul {
+    position: fixed;
+    top: 0;
+    bottom:0;
+    left:0;
+    right:0;
+    transform:translateX(200%);
+    transition:.3s;
+    background-color: var(--wit);
+    list-style-type: none;
+}
+
+main section:nth-of-type(4) ul.matenKomen {
+    top: 0;
+    bottom:0;
+    left:60%;
+    right:0;
+    transform:translateX(0%);
+    transition:.3s;
+    z-index: 600;    
+}
+
+main section:nth-of-type(4) ul.matenKomen li button  {
+    border:none;
+    font-size: 1em;
+    text-align: left;
+    color: var(--bijna-zwart);
+    margin-left: 2em;
+}
+
+main section:nth-of-type(4) ul.matenKomen button  {
+    border: none;
+    width: 3em;
+    text-align: left;
+    font-weight: 800;
+    font-size: 1em;
+    color: var(--zwart);
+    margin-left: 2em;
+}
+
+
+
+/* De schoen: toevoegen aan winkelmandje*/
+main section:nth-of-type(5) {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 1em 1em 1em;
+}
+
+main section:nth-of-type(5) button:nth-of-type(1) {
+    text-decoration: none;
+    color: var(--wit);
+    font-weight: 400;
+    font-size: 1em;
+    background-color: var(--oranje);
+    border:none;
+    box-shadow: 1px 1px 1px var(--oranje);
+    padding: .5em 1.5em .5em 1.5em;
+    border-radius: 5px;
+    width: 80%;
+}
+
+main section:nth-of-type(5) button:nth-of-type(1):hover {
+    color:var(--zwart);
+}
+
+main section:nth-of-type(5) button:nth-of-type(1):focus {
+    background-color: var(--wit);
+    border:solid var(--oranje) 3px;
+    box-shadow: none;
+    color: var(--oranje);
+}
+
+main section:nth-of-type(5) button:nth-of-type(1):active {
+    background-color: var(--wit);
+    border:solid var(--oranje) 3px;
+    box-shadow: none;
+}
+
+/* De schoen: favoriet button*/
+main section:nth-of-type(5) button:nth-of-type(2) {
+    text-decoration: none;
+    color: var(--wit);
+    font-weight: 700;
+    font-size: 1em;
+    background-color: var(--wit);
+    border:none;
+    border: solid var(--licht-grijs) 2px;
+    box-shadow: 1px 1px 1px var(--licht-grijs);
+    padding: .5em .5em .5em .5em;
+    border-radius: 40px;
+    justify-content: center;
+}
+
+main section:nth-of-type(5) button:nth-of-type(2):hover {
+    background-color:var(--licht-grijs);
+}
+
+main section:nth-of-type(5) button:nth-of-type(2):focus {
+    border:solid var(--oranje) 3px;
+    box-shadow: none;
+}
+
+main section:nth-of-type(5) button:nth-of-type(2):active {
+    background-color: var(--oranje);
+    border:solid var(--oranje) 3px;
+    box-shadow: none;
+    
+}
+
+/* vink lijstje bestellen*/
+main section:nth-of-type(6) {
+    font-family:"Open Sans",Helvetica,sans-serif;
+    padding: 1em 1em 1em 1em;
+    font-size: 1.25em;
+    /* display: flex; */
+}
+
+main section:nth-of-type(6) img{
+    order: -10;
+    width: 1em;
+    height: 1em;
+}
+
+main section:nth-of-type(6) li{
+   display:flex;
+}
+
+/* Online bestellen & ophalen in de winkel?*/
+main section:nth-of-type(7) {
+    font-family: "Open Sans",Helvetica,sans-serif;
+    background-color: var(--input-formulier);
+    padding:2em 1.5em 2em 1.5em;
+}
+
+main section:nth-of-type(7) h2 {
+    font-size: 1.4em;
+    font-weight: 600;
+    padding-bottom: 1em;
+}
+
+main section:nth-of-type(7) p {
+    font-size: 1em;
+    font-weight: 300;
+    padding-bottom: 1em;
+}
+
+
+/* Bekijk beschikbaarheid in jouw winkel*/
+main section:nth-of-type(7) a {
+    display: flex;
+    background-color: var(--input-formulier);
+    text-decoration: none;
+    font-family: "Open Sans",Helvetica,sans-serif;
+    font-size: .9em;
+    color: var(--rood-oranje);
+    padding-bottom: 1em;
+}
+
+main section:nth-of-type(7) a:hover {
+    color:var(--donkerder-grijs);
+}
+
+main section:nth-of-type(7) a:focus {
+    color: var(--zwart);
+}
+
+main section:nth-of-type(7) a:active {
+    border-bottom:solid var(--oranje) 2px;
+    color: var(--oranje);
+}
+
+main section:nth-of-type(7) a img {
+    order: -10;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+
+/* Details list: Over dit artikel en Materiaal & verzorging*/
+main section:nth-of-type(8) details summary::-webkit-details-marker {
+    display: none;
+}
+
+main section:nth-of-type(8) details summary::after{
+    content:'►';
+    /* margin-right:2em; */
+    float: right;
+}
+
+main section:nth-of-type(8) details[open] summary::after{
+    content:'▼'
+}
+
+main section:nth-of-type(8) details summary {
+    font-family: "Open Sans",Helvetica,sans-serif;
+    font-weight: 700;
+    color: var(--zwart);
+    list-style-type: none;
+    border-bottom: var(--licht-grijs) solid 2px;
+    width: 100;
+    padding: 1em .5em 1em .5em;
+}
+
+main section:nth-of-type(8) details ul{
+    list-style-type: none;
+}
+
+main section:nth-of-type(8) details li {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10em;
+    margin-left: 1em;
+    text-align: left;  
+    font-size: 1em;
+}
+
+main section:nth-of-type(8) details li h2 {
+    font-size: .9em;
+    font-weight: 550; 
+    font-family: "Open Sans",Helvetica,sans-serif;
+}
+
+main section:nth-of-type(8) details li p {
+    font-size: .9em;
+    font-family: "Open Sans",Helvetica,sans-serif;
+}
+
+
+/* Details list: Verzending en retouren*/
+main section:nth-of-type(8) details:nth-of-type(3) ul li {
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+main section:nth-of-type(8) details:nth-of-type(3) h2 {
+    font-size: .9em;
+    font-family: "Open Sans",Helvetica,sans-serif;
+    font-weight: 550;
+}
+
+main section:nth-of-type(8) details:nth-of-type(3) img {
+    width: 1.5em;
+    height: 1.5em;
+    order: -10;
+}
+
+
+/* layout van de pagina veranderd aan de hand van Grid-systeem*/
+        @media (min-width:800px) {
+
+        /* Bron Sanne, Codepen.io: Carroussels - Overzicht, Gewoon scrollen (begrijp ik niet!)*/
+        main {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(auto, 27em));
+            grid-template-rows: 7em 4em 9em 6em;
+            grid-column-gap: 1em;
+            grid-auto-flow:dense;
+            justify-content:center;
+        }
+
+        main section:nth-of-type(1) > ul {
+            margin-left: 1em; 
+            padding: 0;
+            list-style: none;
+            display: flex;
+            
+            /* handmatig scrollen is mogelijk */
+            overflow-x: scroll;
+            overflow-y: hidden;
+            
+            /* snappen als er gescrolled wordt - andere helft bij li */
+            scroll-snap-type: inline mandatory;
+            /* smooth als met js gescrolled wordt */
+            scroll-behavior: smooth;
+            /* scrollbar zoveel mogelijk verbergen */
+            -webkit-overflow-scrolling: touch; /* voor iOS*/
+            -ms-overflow-style: none; /* voor IE */
+            scrollbar-width: none; /* voor firefox */
+            
+            /* indien het einde of het begin van de pagina bereikt is met scrollen */
+            /* voorkomen dat de pagina gaat scrollen */
+            overscroll-behavior: contain auto;
+        }
+
+        main section:nth-of-type(1) > ul li {
+            flex-basis: 90%;
+            flex-shrink: 0;
+            /* snappen als er gescrolled wordt - andere helft bij ul */
+            scroll-snap-align:center;
+        }
+
+        main section:nth-of-type(1) > ul li > img {
+            display: block;
+            width: 27em;
+            height: 32em;
+        }  
+
+
+        /* Vanaf hier begrijp ik het weer */ 
+        main section:nth-of-type(1) {
+            grid-column-start:1;
+            grid-row:1/6;
+        }
+
+        main section {
+            grid-column-start:2;
+        }
+
+        main section:nth-of-type(6) {
+            grid-column-start:1;
+            grid-row:6/7;
+        }
+
+        main section:nth-of-type(7) {
+            grid-column:1/3;
+            grid-row:7/8;
+            text-align: center;
+        }
+
+        main section:nth-of-type(8) {
+            grid-column:1/3;
+            grid-row:9/10;
+        }
+    }
+   
+
+    @media (min-width:1024px) {
+
+        main section:nth-of-type(6) {
+            grid-column-start:2;
+            grid-row:5/6;
+        }
+
+        main section:nth-of-type(7) {
+            grid-column:1;
+            grid-row:6/7;
+            margin-top: 2em;
+        }
+
+        main section:nth-of-type(8) {
+            grid-column:2;
+            grid-row:6/7;
+        }
+    }
+
+
+
+/* Footer foto's*/
+footer section:nth-of-type(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer section:nth-of-type(1) img{
+    width: 3.9em; 
+    height: 2.9em;
+    margin-top: 3em;
+}
+
+footer section:nth-of-type(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer section:nth-of-type(2) img{
+    width: 3.5em; 
+    height: 3em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+footer section:nth-of-type(3){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer section:nth-of-type(3) img {
+    width: 5em; 
+    height: 3em;
+    padding-left: 1em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+
+/* Footer details lijst */
+footer section:nth-of-type(4){
+    font-family: "Open Sans",Helvetica,sans-serif;
+    font-size: 1.25em;
+    font-weight: 450;
+}
+
+footer section:nth-of-type(4) details summary{  
+    border-bottom: solid var(--licht-grijs) 0.01em;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    list-style-type: none;
+    font-weight: 500;
+}
+
+footer section:nth-of-type(4) details summary::-webkit-details-marker {
+    display: none;
+}
+
+footer section:nth-of-type(4) details summary::after{
+    content:'►';
+    margin-right:2em;
+    float: right;
+}
+
+footer section:nth-of-type(4) details[open] summary::after{
+    content:'▼'
+}
+
+footer section:nth-of-type(4) details h2, p {
+    /* margin-left: 1em; */
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 2em;
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+footer section:nth-of-type(4) details li a {
+    text-decoration: none;
+    color: var(--zwart);
+    font-weight: 500;
+}
+
+footer section:nth-of-type(4) details li a:hover {
+    border-bottom:solid var(--oranje) 2px;
+}
+
+footer section:nth-of-type(4) details li a:focus{
+    color: var(--donker-grijs);
+}
+
+footer section:nth-of-type(4) details li a:active{
+    border-bottom:solid var(--oranje) 2px;
+    color: var(--oranje);
+}
+
+footer section:nth-of-type(4) details li {
+    list-style-type: none;
+    /* margin-left: 1em; */
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 2em;
+    font-size: 0.8em;
+    font-weight: 400;
+}

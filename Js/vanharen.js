@@ -9,11 +9,19 @@ function menuOpenen () {
 
 
 
-// var favorietButton= document.querySelector("main section:nth-of-type(3) li button");
+var favorietButton= document.querySelector("main section:nth-of-type(3) li button");
+const favoriteBtns = document.querySelectorAll("main section:nth-of-type(3) ul button");
 
-// favorietButton.addEventListener("click", hartjeVullen);
+console.log(favoriteBtns);
 
-// function hartjeVullen () {
-//     var hetHartje = document.querySelector("main section:nth-of-type(3) button");
-//     hetHartje.classList.toggle("favorietMaken");
-// }
+favorietButton.addEventListener("click", hartjeVullen);
+
+function hartjeVullen () {
+    // var hetHartje = document.querySelector("main section:nth-of-type(3) button");
+    var img = document.querySelector("main section:nth-of-type(3) button img");
+    img.src = "../images/hartjevol.svg"
+
+
+    // hetHartje.classList.add("test");
+    // hetHartje.classList.toggle("favorietMaken");
+}
