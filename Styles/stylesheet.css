@@ -494,6 +494,7 @@ main section:nth-of-type(1) p{
     color:var(--zwart);
     font-weight: 350;
     margin:0;
+    padding-left: 0;
 }
 
 
@@ -533,6 +534,17 @@ main section:nth-of-type(2) img {
     width: 100%;
 }
 
+main section:nth-of-type(2) img:hover {
+    border:var(--oranje) solid 4px;
+}
+
+main section:nth-of-type(2) img:focus{
+    border: var(--oranje) solid 8px;
+}
+
+main section:nth-of-type(2) img:active{
+    border: var(--oranje) solid 6px;
+}
 
 
 /* carousel 2, Sneakers op een rijtje */
@@ -589,6 +601,7 @@ main section:nth-of-type(3) p {
     font-weight: 600;
     font-size: 1em;
     order: -100;
+    padding-left: 0;
 }
 
 main section:nth-of-type(3) img {
@@ -611,8 +624,25 @@ main section:nth-of-type(3) button:hover {
 }
 
 main section:nth-of-type(3) button img {
-    width: 3em;
-    height: 3em;
+    width: 3.5em;
+    height: 3.5em;
+    background-color: var(--wit);
+    border: solid var(--oranje) 1px;
+    padding: .5em .5em .5em .5em;
+    border-radius: 40px;
+}
+    
+main section:nth-of-type(3) button img:hover {
+    border:solid var(--oranje) 3px;
+}
+    
+main section:nth-of-type(3) button img:focus {
+    border:solid var(--oranje) 3px;
+    box-shadow: none;
+}
+    
+main section:nth-of-type(3) button img:active {
+    background-color: var(--oranje);
 }
 
 /* main section:nth-of-type(3) button.favorietMaken img {

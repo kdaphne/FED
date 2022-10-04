@@ -608,28 +608,32 @@ main section:nth-of-type(7) a img {
 
 
 /* Details list: Over dit artikel en Materiaal & verzorging*/
-main section:nth-of-type(8) details summary::-webkit-details-marker {
+main section:nth-of-type(8) details summary h2::-webkit-details-marker {
     display: none;
 }
 
-main section:nth-of-type(8) details summary::after{
+main section:nth-of-type(8) details summary h2::after{
     content:'►';
     /* margin-right:2em; */
     float: right;
 }
 
-main section:nth-of-type(8) details[open] summary::after{
+main section:nth-of-type(8) details[open] summary h2::after{
     content:'▼'
 }
 
 main section:nth-of-type(8) details summary {
     font-family: "Open Sans",Helvetica,sans-serif;
-    font-weight: 700;
     color: var(--zwart);
     list-style-type: none;
     border-bottom: var(--licht-grijs) solid 2px;
-    width: 100;
     padding: 1em .5em 1em .5em;
+}
+
+main section:nth-of-type(8) details summary h2 {
+    font-weight: 600;
+    font-size: 1.1em;
+
 }
 
 main section:nth-of-type(8) details ul{
@@ -664,10 +668,10 @@ main section:nth-of-type(8) details:nth-of-type(3) ul li {
 }
 
 
-main section:nth-of-type(8) details:nth-of-type(3) h2 {
+main section:nth-of-type(8) details:nth-of-type(3) ul li  h2 {
     font-size: .9em;
     font-family: "Open Sans",Helvetica,sans-serif;
-    font-weight: 550;
+    font-weight: 500;
 }
 
 main section:nth-of-type(8) details:nth-of-type(3) img {

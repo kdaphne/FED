@@ -9,19 +9,29 @@ function menuOpenen () {
 
 
 
-var favorietButton= document.querySelector("main section:nth-of-type(3) li button");
-const favoriteBtns = document.querySelectorAll("main section:nth-of-type(3) ul button");
+// var favorietButton= document.querySelector("main section:nth-of-type(3) li button");
+// const favoriteBtns = document.querySelectorAll("main section:nth-of-type(3) ul button");
 
-console.log(favoriteBtns);
+// console.log(favoriteBtns);
 
-favorietButton.addEventListener("click", hartjeVullen);
+// favorietButton.addEventListener("click", hartjeVullen);
 
-function hartjeVullen () {
-    // var hetHartje = document.querySelector("main section:nth-of-type(3) button");
-    var img = document.querySelector("main section:nth-of-type(3) button img");
-    img.src = "../images/hartjevol.svg"
+// function hartjeVullen () {
+//     // var hetHartje = document.querySelector("main section:nth-of-type(3) button");
+    
+//     img.src = "../images/hartjevol.svg"
 
 
-    // hetHartje.classList.add("test");
-    // hetHartje.classList.toggle("favorietMaken");
-}
+//     // hetHartje.classList.add("test");
+//     // hetHartje.classList.toggle("favorietMaken");
+// }
+
+
+// var img = document.querySelector("main section:nth-of-type(3) button img");
+// var favorietButton= document.querySelector("main section:nth-of-type(3) li button");
+
+// favorietButton.addEventListener("click", hartjeVullen);
+
+// function hartjeVullen () {
+//     img.src = "../images/hartjevol.svg"
+// }
