@@ -585,6 +585,7 @@ main section:nth-of-type(7) a {
     font-size: .9em;
     color: var(--rood-oranje);
     padding-bottom: 1em;
+    justify-content: center;
 }
 
 main section:nth-of-type(7) a:hover {
