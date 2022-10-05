@@ -184,16 +184,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 8e werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  Lijst met je bevindingen die in de test naar voren kwamen:
 
   #### Screenreader
   De screenreader werkte goed! Alle kopjes werden meegenomen en in de goede volgorde verteld. Ook de linkjes werkte goed, ze waren allemaal benoemd en meegenomen in de screenreader.<br/>
 
-  Wel was er een probleem met de iconen in de header. Deze had ik in mijn html de verkeerde namen gegeven en dus las de screenredear deze ook verkeerd voor. Dit zorgde voor verwarring hij de tester.<br/>
+  Wel was er een probleem met de iconen in de header. Deze had ik in mijn html de verkeerde namen gegeven en dus las de screenreader deze ook verkeerd voor. Dit zorgde voor verwarring bij de tester:<br/>
   <img src="readme-images/iconennamen.png" width="375px" alt="Iconen met verkeerde namen"><br/>
 
-  Ik heb dit opgelost door de iconen de goede namen te geven die ook daadwerkelijk bij de iconen horen.<br/>
-  <img src="readme-images/iconennamen2.jpg" width="375px" alt="Iconen met de goede namen">
+  Ik heb dit opgelost door de iconen de goede namen te geven die ook daadwerkelijk bij de iconen horen:<br/>
+  <img src="readme-images/iconennamen2.png" width="375px" alt="Iconen met de goede namen">
 
 
 
@@ -206,8 +206,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
    <img src="readme-images/geenlinkjes.png" width="375px" alt="Geen linkjes"><br/>
 
 
-  Na het verbetern van het niet kunnen tabben, zag mijn HTML er zo uit:<br/>
-   <img src="readme-images/geenlinkejes2.png" width="375px" alt="Wel linkjes"><br/>
+  Na het verbeteren van het niet kunnen tabben, zag mijn HTML er zo uit:<br/>
+   <img src="readme-images/geenlinkjes2.png" width="375px" alt="Wel linkjes"><br/>
 
 
   #### Motoriek (shocks, elastiekjes)
@@ -217,22 +217,22 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Bij de visuele onderdelen scoort mijn website op dit moment laag.<br/>
 
-  Als het zicht geblurd is, zijn de P's voor de gebruiker moeilijk te lezen. Deze zijn te dun en te klein.<br/>  
+  Als het zicht geblurd is, zijn de P's voor de gebruiker moeilijk te lezen. Deze zijn te dun en te klein:<br/>  
   <img src="readme-images/geenp.png" width="375px" alt="P niet leesbaar"><br/>
 
-  Ik heb dit opgelost door de P's dikker en groter te maken.<br/> 
+  Ik heb dit opgelost door de P's dikker en groter te maken:<br/> 
   <img src="readme-images/geenp2.png" width="375px" alt="P wel leesbaar"><br/>
 
-  Ook zijn de prijzen van de sneakers moeilijk te lezen, omdat deze te klein en juist te bold zijn. Dit geld ook voor de merken namen in de carousel van de diverse merken.<br/>
+  Ook zijn de prijzen van de sneakers moeilijk te lezen, omdat deze te klein en juist te bold zijn. Dit geld ook voor de merken namen in de carousel van de diverse merken:<br/>
   <img src="readme-images/prijzenklein.png" width="375px" alt="Prijzen zijn te klein"><br/>
 
-  Ik heb ook dit opgelost door de prijzen groter en minder bold te maken.<br/>
+  Ik heb ook dit opgelost door de prijzen groter en minder bold (font-weight) te maken:<br/>
    <img src="readme-images/prijzenklein2.png" width="375px" alt="Prijzen zijn niet te klein"><br/>
 
-  Ook is de search-balk in de header slecht te lezen, door de lichte grijze kleur die deze heeft.<br/>
+  Ook is de search-balk in de header slecht te lezen, door de lichte grijze kleur die deze heeft:<br/>
   <img src="readme-images/zoekbalk.png" width="375px" alt="Zoekbalk slecht zichtbaar"><br/>
 
-  Dit heb ik opgelost door de search-balk een donkere achtergroond te geven, waardoor deze nu wel opvalt.<br/>
+  Dit heb ik opgelost door de search-balk een donkere achtergroond te geven, waardoor deze nu wel opvalt:<br/>
    <img src="readme-images/zoekbalk2.png" width="375px" alt="Zoekbalk beter zichtbaar"><br/>
 
   Daarentegen kwam er bij de test geen opmerkingen tegen bij het kleurenblindheid en contrast. Deze waren juist wel weer goed en duidelijk.<br/>
@@ -288,7 +288,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  Han Haren, Dames 
+  <img src="readme-images/pagina1klein.png" width="375px" alt="Pagina 1 klein"><br/>
+  <img src="readme-images/pagina1groot.png" width="375px" alt="Pagina 1 groot"><br/>
+
+
+  Van Haren, Oxmox Taupe Chunky Sneaker
+  <img src="readme-images/pagina2klein.png" width="375px" alt="Pagina 2 klein"><br/>
+  <img src="readme-images/pagina2groot.png" width="375px" alt="Pagina 2 groot">
 
 
   ### Dit ging goed/Heb ik geleerd: 
@@ -313,8 +320,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Bronnenlijst
 
-<details open>
-  <summary>continu bijhouden terwijl je werkt</summary>
+<details>
+  <summary>continu bijgehouden:</summary>
 
   <!-- Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). -->
 
