@@ -177,8 +177,8 @@ header form input {
 }
 
 header input::placeholder {
-    color:var(--donker-grijs);
-    font-size: 1em;
+    color:var(--zwart);
+    font-size: 1.1em;
     font-weight: 100;
 }
 

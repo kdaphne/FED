@@ -264,7 +264,7 @@ main section:nth-of-type(5) li:nth-of-type(3),main section:nth-of-type(5) li:nth
     @media (max-width:1019px) {
 
         /* menu button verdwijnt + forrmulier over de hele breedte*/
-        nav:nth-of-type(2) button{
+        nav:nth-of-type(2) button {
             display: inline;
         }
 
@@ -454,12 +454,12 @@ header form input {
     border:none;
     background-color: var(--donker-wit);
     width: 25em;
-    flex-grow: 1;  
+    flex-grow: 1;
 }
 
 header input::placeholder {
-    color:var(--donker-grijs);
-    font-size: 1em;
+    color:var(--zwart);
+    font-size: 1.1em;
     font-weight: 100;
 }
 
@@ -599,7 +599,7 @@ main section:nth-of-type(3) p {
     font-family: "Open Sans",Helvetica,sans-serif;
     color: var(--zwart);
     font-weight: 600;
-    font-size: 1em;
+    font-size: 1.1em;
     order: -100;
     padding-left: 0;
 }
@@ -715,6 +715,7 @@ main section:nth-of-type(6) p {
     margin-top: 0;
     margin-bottom: 1em;
     margin-left: 0;
+    padding-left: 0;
 }
 
 /* carousel met merken namen */
