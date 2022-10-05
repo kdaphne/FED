@@ -32,7 +32,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Je website
 
-<details open>
+<details>
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
@@ -57,7 +57,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
-   Kleuren contrast is goed. Grote witte letters van de koppen zijn goed te zien. Echter, zijn de witte letters op oranje niet goed zicthbaar, anders om wel. Ook zijn de dunnen zwarte letters slecht te lezen bij veel omstandigheden (kleurenblind, zwart-wit en geblurd)
+  Kleuren contrast is goed. Grote witte letters van de koppen zijn goed te zien. Echter, zijn de witte letters op oranje niet goed zicthbaar, anders om wel. Ook zijn de dunnen zwarte letters slecht te lezen bij veel omstandigheden (kleurenblind, zwart-wit en geblurd)
 
   #### Screenreader
   Korte omschrijving:
@@ -84,6 +84,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Korte omschrijving:
   Wat bij de kleurenblindheid veel naar voren kwam, is het probleem dat de kleine zwarte letters over de gehele pagina slecht tot bijna niet leesbaar zijn. Bij veel kleuerenblindheid neemt de kleur van het zwart af en vervaagt dit tot grijs, waardoor de letters slecht zicthbaar worden.
   <img src="readme-images/kleineletters.jpg" width="375px" alt="Te kleine omschrijvings letters"><br/>
+
   Bij gebruikers die alleen zwart/wit zien, is er veel wit aanwezig. Elke wit is een lichtere tint, maar voor mensen die zwart wit zien is deze tint verschil niet zictbaar. Hierdoor lopen bijvoorbeeld de achtergrond en de product achtergrond in elkaar over.<br/>
   <img src="readme-images/tintenwit.jpg" width="375px" alt="Overgang tinten wit te slecht zichtbaar">
   
@@ -192,21 +193,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/iconennamen.png" width="375px" alt="Iconen met verkeerde namen"><br/>
 
   Ik heb dit opgelost door de iconen de goede namen te geven die ook daadwerkelijk bij de iconen horen.<br/>
-  <img src="readme-images/Navigatiemenu.jpg" width="375px" alt="breakdown van het navigatie menu">
+  <img src="readme-images/iconennamen2.jpg" width="375px" alt="Iconen met de goede namen">
 
 
 
   #### Muis en Toetsenbord 
-  Met de muis en toetsenbord ging het goed. Wel miste mijn eerste carousel ("De populairste categorieën van dit moment") een link en werden deze dus niet meegenomen tijdens de tab-toets. Voorderest waren alle linkjes/buttons klikbaar en kon er overal doorheen worden getabt.<br/>
+  Met de muis en toetsenbord ging het goed. Wel miste mijn eerste carousel ("De populairste categorieën van dit moment") een link en werden deze dus niet meegenomen tijdens de tab-toets. Voor de rest waren alle linkjes/buttons klikbaar en kon er overal doorheen worden getabt.<br/>
   
-  De oplossing om de eerste carousel ("De populairste categorieën van dit moment") wel zichtbaar te krijgen bij het gebruik van de tab-toets, is door de deze list-elementen een link mee geven, omdat ze daadwerkelijk zullen moeten linken naar een volgende pagina.<br/>
+  De oplossing om de eerste carousel ("De populairste categorieën van dit moment") wel zichtbaar te krijgen bij het gebruik van de tab-toets, is door deze list-elementen een link mee geven, omdat ze daadwerkelijk zullen moeten linken naar een volgende pagina.<br/>
 
   Voor het niet kunnen tabben, zag mijn HTML er zo uit:<br/>
    <img src="readme-images/geenlinkjes.png" width="375px" alt="Geen linkjes"><br/>
 
 
   Na het verbetern van het niet kunnen tabben, zag mijn HTML er zo uit:<br/>
-   <img src="readme-images/Navigatiemenu.jpg" width="375px" alt="breakdown van het navigatie menu"><br/>
+   <img src="readme-images/geenlinkejes2.png" width="375px" alt="Wel linkjes"><br/>
 
 
   #### Motoriek (shocks, elastiekjes)
@@ -219,17 +220,23 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Als het zicht geblurd is, zijn de P's voor de gebruiker moeilijk te lezen. Deze zijn te dun en te klein.<br/>  
   <img src="readme-images/geenp.png" width="375px" alt="P niet leesbaar"><br/>
 
+  Ik heb dit opgelost door de P's dikker en groter te maken.<br/> 
+  <img src="readme-images/geenp2.png" width="375px" alt="P wel leesbaar"><br/>
+
   Ook zijn de prijzen van de sneakers moeilijk te lezen, omdat deze te klein en juist te bold zijn. Dit geld ook voor de merken namen in de carousel van de diverse merken.<br/>
   <img src="readme-images/prijzenklein.png" width="375px" alt="Prijzen zijn te klein"><br/>
+
+  Ik heb ook dit opgelost door de prijzen groter en minder bold te maken.<br/>
+   <img src="readme-images/prijzenklein2.png" width="375px" alt="Prijzen zijn niet te klein"><br/>
 
   Ook is de search-balk in de header slecht te lezen, door de lichte grijze kleur die deze heeft.<br/>
   <img src="readme-images/zoekbalk.png" width="375px" alt="Zoekbalk slecht zichtbaar"><br/>
 
+  Dit heb ik opgelost door de search-balk een donkere achtergroond te geven, waardoor deze nu wel opvalt.<br/>
+   <img src="readme-images/zoekbalk2.png" width="375px" alt="Zoekbalk beter zichtbaar"><br/>
+
   Daarentegen kwam er bij de test geen opmerkingen tegen bij het kleurenblindheid en contrast. Deze waren juist wel weer goed en duidelijk.<br/>
   De dark/light mode is niet aanwezig om mijn website en is dus ook niet getest.<br/>
-
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 </details>
 
@@ -263,7 +270,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Verslag van meeting
-  Uitkomsten van de meeting
+  Uitkomsten van de meeting:
 
   - Meerdere hartjes laten vullen, om de sneakers te favoritiseren moet met javascript, is alleen erg moeilijk
   - Code doorsturen naar Russel om zo mij te helpen met mijn javascript
@@ -294,9 +301,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Ook heb ik door de lessen en het maken van de vanHaren site Flexbox beter weten te begrijpen. In de eerste weken was het mij nog niet helemaal duidelijk, maar bij het maken van mijn 2de pagina vielen de steentje in elkaar en was het mij duidelijk hoe het systeem van Flexbox werkte en kon ik deze makkelijker toepassen.
 
   ### Dit was lastig/Is niet gelukt:
-  Wat mij deze periode niet gelukt is om te maken is om op mijn tweede pagina, de foto's van de schoen naast dat deze groot in beeld is, ook de overige foto's klein aan de linker kant in beeld zijn.<br/>
+  Wat mij deze periode niet gelukt is om te maken is om op mijn tweede pagina, de foto's van de schoen naast dat deze groot in beeld is, ook de overige foto's klein aan de linker kant in beeld te brengen.<br/>
 
   <img src="readme-images/fotozijkant.png" width="375px" alt="Foto lijst zijkant">
+
 </details>
 
 
@@ -310,9 +318,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   <!-- Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). -->
 
-  1. Bron 1: Google Fonts: afbeelding van iconen 
-  2. Bron 2: Sanne: Width: min(80%, 15em)
-  3. Bron 3: Russell: toepassen van media queries bij mijn navigatie
-  4. Bron 4: Russel: Javascript, hartje source veranderen
+  1. Bron 1: Google Icons: afbeelding van iconen; 
+  2. Bron 2: Sanne: Width: min(80%, 15em);
+  3. Bron 3: Russell: toepassen van media queries bij mijn navigatie;
 
 </details>
