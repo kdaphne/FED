@@ -288,12 +288,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  Han Haren, Dames 
+  Han Haren, Dames<br/>
   <img src="readme-images/pagina1klein.png" width="375px" alt="Pagina 1 klein"><br/>
   <img src="readme-images/pagina1groot.png" width="375px" alt="Pagina 1 groot"><br/>
 
 
-  Van Haren, Oxmox Taupe Chunky Sneaker
+  Van Haren, Oxmox Taupe Chunky Sneaker<br/>
   <img src="readme-images/pagina2klein.png" width="375px" alt="Pagina 2 klein"><br/>
   <img src="readme-images/pagina2groot.png" width="375px" alt="Pagina 2 groot">
 
