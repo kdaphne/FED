@@ -377,7 +377,6 @@ main section:nth-of-type(4) {
 main section:nth-of-type(4) a {
     font-family: "Open Sans",Helvetica,sans-serif;
     font-size: 1.1em;
-    /* font-weight: 700; */
     color: var(--zwart);
     padding-top: .5em;
     padding-bottom: .5em;
@@ -401,23 +400,12 @@ main section:nth-of-type(4) a:active{
 }
 
 /* Kies je maat, menu*/
-
-/* main section:nth-of-type(4) h2{
-    font-weight: 400;
-    font-family: "Open Sans",Helvetica,sans-serif;
-    font-size: 1.25em;
-    text-align: left;
-    color: #c8d3d6;
-} */
-
 main section:nth-of-type(4) button {
     font-weight: 400;
     font-family: "Open Sans",Helvetica,sans-serif;
     font-size: 1.25em;
     text-align: left;
     color: var(--bijna-zwart);
-    /* position:relative;
-    z-index:100;	 */
     background-color: var(--input-formulier);
     list-style-type: none;
     border: var(--bijna-zwart) solid 1.5px;
@@ -543,7 +531,6 @@ main section:nth-of-type(6) {
     font-family:"Open Sans",Helvetica,sans-serif;
     padding: 1em 1em 1em 1em;
     font-size: 1.25em;
-    /* display: flex; */
 }
 
 main section:nth-of-type(6) img{
@@ -615,7 +602,6 @@ main section:nth-of-type(8) details summary h2::-webkit-details-marker {
 
 main section:nth-of-type(8) details summary h2::after{
     content:'►';
-    /* margin-right:2em; */
     float: right;
 }
 
@@ -701,28 +687,24 @@ main section:nth-of-type(8) details:nth-of-type(3) img {
             list-style: none;
             display: flex;
             
-            /* handmatig scrollen is mogelijk */
             overflow-x: scroll;
             overflow-y: hidden;
             
-            /* snappen als er gescrolled wordt - andere helft bij li */
             scroll-snap-type: inline mandatory;
-            /* smooth als met js gescrolled wordt */
+
             scroll-behavior: smooth;
-            /* scrollbar zoveel mogelijk verbergen */
-            -webkit-overflow-scrolling: touch; /* voor iOS*/
-            -ms-overflow-style: none; /* voor IE */
-            scrollbar-width: none; /* voor firefox */
             
-            /* indien het einde of het begin van de pagina bereikt is met scrollen */
-            /* voorkomen dat de pagina gaat scrollen */
+            -webkit-overflow-scrolling: touch; 
+            -ms-overflow-style: none; 
+            scrollbar-width: none; 
+            
             overscroll-behavior: contain auto;
         }
 
         main section:nth-of-type(1) > ul li {
             flex-basis: 90%;
             flex-shrink: 0;
-            /* snappen als er gescrolled wordt - andere helft bij ul */
+        
             scroll-snap-align:center;
         }
 
@@ -883,7 +865,6 @@ footer section:nth-of-type(4) details li a:active{
 
 footer section:nth-of-type(4) details li {
     list-style-type: none;
-    /* margin-left: 1em; */
     padding-top: 0.2em;
     padding-bottom: 0.2em;
     padding-left: 2em;
