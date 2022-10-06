@@ -299,7 +299,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Wat ik bij FED geleerd heb is het gebruik van Grid- systeem. Ik kende dit hiervoor nog niet, dus het was gebruik hiervan was nieuwe voor mij. Ik heb het Grid-systeem toegepast op mijn 2de pagina waarbij de layout bij twee verschillende Media Queries veranderd.<br/>
+  Wat ik bij FED geleerd heb, is het gebruik van het Grid- systeem. Ik kende dit hiervoor nog niet, dus het gebruik hiervan was nieuwe voor mij. Ik heb het Grid-systeem toegepast op mijn 2de pagina waarbij de layout bij twee verschillende Media Queries veranderd.<br/>
 
   <img src="readme-images/Grid1.png" width="375px" alt="Grid bij de grootste media querie"><br/>
 
@@ -325,8 +325,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   <!-- Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). -->
 
-  1. Bron 1: Google Icons: afbeelding van iconen; 
+  1. Bron 1: Google Icons: https://fonts.google.com/icons afbeelding van iconen; 
   2. Bron 2: Sanne: Width: min(80%, 15em);
-  3. Bron 3: Russell: toepassen van media queries bij mijn navigatie;
+  3. Bron 3: Sanne: Codepen.io: Carroussels - Overzicht, Gewoon scrollen 
+  4. Bron 3: Russell: toepassen van media queries bij mijn navigatie;
 
 </details>
