@@ -321,7 +321,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Bronnenlijst
 
 <details>
-  <summary>continu bijgehouden:</summary>
+  <summary>Continu bijgehouden:</summary>
 
   <!-- Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). -->
 
